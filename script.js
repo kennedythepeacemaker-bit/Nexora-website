@@ -32,7 +32,10 @@ contactForm.addEventListener("submit", (event) => {
   const email = document.getElementById("email").value.trim();
   const message = document.getElementById("message").value.trim();
   const text = `Hello YourTech, my name is ${name}. My email is ${purekenn588@gmail.com}.\n\nEnquiry: ${message}`;
+
 if (email-is ==="purekenn588@gmail.com") {formnote.setAttribute("role", "status");
+return;}
+
   if (WHATSAPP_NUMBER === "+254751261087") {
     formNote.setAttribute("role", "status");
     return;
